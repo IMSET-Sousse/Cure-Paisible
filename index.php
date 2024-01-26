@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spa Zeineb</title>
+    <title>Cure Paisible</title>
     <link rel="shortcut icon" type="x-icon" href="spa-solid.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/697f7d2aae.js" crossorigin="anonymous"></script>
@@ -17,21 +17,23 @@
           <div class="carousel-item active bg-1">
             <div class="carousel-caption">
                 <h5 class="animated fadeInDown" style="animation-delay: 1ms;">Cure <span class="text-success"> <i class="fa-solid fa-spa"></i>Paisible</span></h5>
-                <p class="animated fadeInUp" style="animation-delay: 1ms;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolores.</p>
+                <p class="animated fadeInUp" style="animation-delay: 1ms;">The medical definition of 'cure' for women's faces is the process of healing or restoring health to a woman's face, especially in relation to diseases or injuries. In this context, a cure implies a permanent solution or remedy for a medical condition affecting a woman's face..</p>
                 <a href="#" class="btn">Learn More</a>
             </div>
           </div>
           <div class="carousel-item bg-2">
             <div class="carousel-caption">
                 <h5 class="animated fadeInDown" style="animation-delay:1ms;">Healthy <span class="text-success"> <i class="fa-solid fa-heart-pulse"></i> LifeStyle</span></h5>
-                <p class="animated fadeInUp" style="animation-delay: 1ms;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolores.</p>
+                <p class="animated fadeInUp" style="animation-delay: 1ms;">The medical definition of 'cure' for women's faces is the process of healing or restoring health to a woman's face, especially in relation to diseases or injuries. In this context, a cure implies a permanent solution or remedy for a medical condition affecting a woman's face...</p>
                 <a href="#" class="btn">Learn More</a>
             </div>
           </div>
           <div class="carousel-item bg-3">
             <div class="carousel-caption">
                 <h5 class="animated fadeInDown" style="animation-delay:1ms;">Increased <span class="text-success"> <i class="fa-solid fa-person-running"></i>Flexibility</span></h5>
-                <p class="animated fadeInUp" style="animation-delay: 1ms;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolores.</p>
+                <p class="animated fadeInUp" style="animation-delay: 1ms;">The medical definition of 'cure' for women's faces is the process of healing or restoring health to a woman's face, especially in relation to diseases or injuries. In this context, a cure implies a permanent solution or remedy for a medical condition affecting a woman's face..
+
+.</p>
                 <a href="#" class="btn">Learn More</a>
             </div>
           </div>
@@ -59,7 +61,7 @@
                 <div class="col-lg-12">
                     <div class="section-header text-center">
                         <h2>About <span>Us</span></h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>bienvenus chez nous cher clients.</p>
                     </div>
                 </div>
             </div>
@@ -72,9 +74,9 @@
                 </div>
                 <div class="col-lg-5 col-sm-12">
                     <div class="about-text">
-                        <h4>Welcome to ZeinebSpa</h4>
+                        <h4>Welcome to Cure Paisible Spa</h4>
                         <h2>Better Life with Perfect Body</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, distinctio exercitationem perferendis enim praesentium, nulla deserunt, ut eaque atque rem sit repellendus doloribus! Qui tenetur itaque esse tempora distinctio voluptatibus labore quo. Laudantium tempore culpa velit non fugiat atque alias, totam magnam pariatur eveniet quae ullam consectetur, ducimus aliquam sequi.</p>
+                        <p>Avec SPA Cure Paisible, entrez dans un monde de bien-être corporel et mental. Vous plongez dans une eau délicieusement caressante, dans une enveloppante et bienfaisante douceur. Pour un confort  absolu, pour un plaisir parfait. Votre corps se relâche. Votre esprit se libère. Vous découvrez la relaxation totale par un amour gloire et beauté privée..</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
@@ -123,7 +125,7 @@
                 <div class="col-lg-12">
                     <div class="section-header text-center">
                         <h2>Our <span>Services</span></h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Découvrez ce que nous faisons.</p>
                     </div>
                 </div>
             </div>
@@ -132,7 +134,7 @@
                     <div class="single-service text-center">
                         <i class="fa-solid fa-hand-holding-heart"></i>
                         <h2>Anxiety Reliel</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus illum voluptatibus ducimus totam nemo dicta fuga dolores veniam nulla.</p>
+                        <p>Many people deal with stress every day. Work, family issues, health concerns, and financial obligations are parts of everyday life that commonly contribute to heightened stress levels. Minimize phone use and screen time.</p>
                         <a href="#">Learn more</a>
                     </div>
                 </div>
@@ -140,7 +142,7 @@
                     <div class="single-service text-center">
                         <i class="fa-solid fa-face-grin-hearts"></i>
                         <h2>Reduce Stress</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus illum voluptatibus ducimus totam nemo dicta fuga dolores veniam nulla.</p>
+                        <p>If you’re stressed, moving your body consistently may help reduce stress levels and improve mood.A 6-week study of 185 university students found that participating in aerobic exercise ,2 days per week significantly reduced overall perceived .</p>
                         <a href="#">Learn more</a>
                     </div>
                 </div>
@@ -148,7 +150,7 @@
                     <div class="single-service text-center">
                         <i class="fa-solid fa-scale-unbalanced-flip"></i>
                         <h2>Life Balancing</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus illum voluptatibus ducimus totam nemo dicta fuga dolores veniam nulla.</p>
+                        <p>Finding balance in life can bring a sense of fulfillment and meaning. Use strategies to help you gain balance and perspective in how you’re living your life such as prioritizing your time, making compromises, and being optimistic...</p>
                         <a href="#">Learn more</a>
                     </div>
                 </div>
@@ -161,7 +163,7 @@
                 <div class="col-lg-12">
                     <div class="section-header text-center">
                         <h2>Client's<span> Opinion</span></h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Welcome.</p>
                     </div>
                 </div>
             </div>
@@ -176,9 +178,10 @@
                                     <img src="image/testi-1.jpg" alt="">
                                 </div>
                                 <blockquote>
-                                    " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nisi iste corrupti rerum enim itaque! "
+                                    " Hello.
+My friends and I listen to the same radio English program and transcribe what is mentioned in the show. Today, we disagreed on the part in red in the following sentence. "
                                 </blockquote>
-                                <h4>Megan Doe</h4>
+                                <h4>lamar souirdi</h4>
                                 <h5>CTO, proma</h5>
                                </div>
                               </div>
@@ -188,9 +191,9 @@
                                         <img src="image/testi-2.jpg" alt="">
                                     </div>
                                     <blockquote>
-                                        " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nisi iste corrupti rerum enim itaque! "
+                                        " It could be either - talking about one client or more than one client.There  ay be a clue in the previous question and answer: can you tell us those?"
                                     </blockquote>
-                                    <h4>Claire Chedd</h4>
+                                    <h4>samar zouidi</h4>
                                     <h5>Officer, petra</h5>
                                    </div>
                               </div>
@@ -200,9 +203,9 @@
                                         <img src="image/testi-3.jpg" alt="">
                                     </div>
                                     <blockquote>
-                                        " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nisi iste corrupti rerum enim itaque! "
+                                        " Hi, cropje jnr, thank you very much for answering my question. I understand very well and appreciate it a lot. "
                                     </blockquote>
-                                    <h4>Patricia Jones</h4>
+                                    <h4>ahlem grira</h4>
                                     <h5>CTO, persona</h5>
                                    </div>
                               </div>
@@ -221,7 +224,7 @@
             <div class="col-lg-12">
                 <div class="section-header text-center">
                     <h2>our <span>Trainers</span></h2>
-                    <p>lorem ipsum dolor sit amet</p>
+                    <p>Our dedicated team of trainers will help you develop the skills you need to achieve your dream band score. Meet our IELTS trainers</p>
                 </div>
             </div>
         </div>
@@ -232,8 +235,8 @@
                 <div class="card">
                     <img src="1.jpg" alt=""  class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Jane Davis</h5>
-                        <p class="card-text">zeineb faouel te3bet w theb todkhel dawech w roha tal3et w khwaterha daret w thewb tetaka tarteh</p>
+                        <h5 class="card-title">Stephen Foster</h5>
+                        <p class="card-text">Stephen oversees our new trainer development program.</p>
                         <p class="Socials">
                             <i class="fa fa-facebook"></i>
                             <i class="fa fa-twitter"></i>
@@ -248,8 +251,8 @@
                 <div class="card">
                     <img src="2.jpg" alt=""  class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Jane Davis</h5>
-                        <p class="card-text">zeineb faouel te3bet w theb todkhel dawech w roha tal3et w khwaterha daret w thewb tetaka tarteh</p>
+                        <h5 class="card-title">Andi Nguyen</h5>
+                        <p class="card-text">Andi Nguyen</p>
                         <p class="Socials">
                             <i class="fa fa-facebook"></i>
                             <i class="fa fa-twitter"></i>
@@ -264,8 +267,8 @@
                 <div class="card">
                     <img src="3.jpg" alt=""  class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Jane Davis</h5>
-                        <p class="card-text">zeineb faouel te3bet w theb todkhel dawech w roha tal3et w khwaterha daret w thewb tetaka tarteh</p>
+                        <h5 class="card-title">Ben Palocko</h5>
+                        <p class="card-text">Ben oversees our nutrition coaching program.</p>
                         <p class="Socials">
                             <i class="fa fa-facebook"></i>
                             <i class="fa fa-twitter"></i>
@@ -283,7 +286,7 @@
                 <div class="col-lg-12">
                     <div class="section-header text-center">
                         <h2>our <span>Posts</span></h2>
-                        <p>lorem ipsum dolor sit amet</p>
+                        <p>Spa & Beauty Services</p>
                     </div>
                 </div>
             </div>
@@ -293,8 +296,8 @@
                         <div class="card">
                             <img src="1.jpg" alt=""  class="card-img-top">
                             <div class="card-body">
-                                <h5 class="card-title">Treat body as temple</h5>
-                                <p class="card-text">zeineb faouel te3bet w theb todkhel dawech w roha tal3et w khwaterha daret w thewb tetaka tarteh</p>
+                                <h5 class="card-title">How do I treat my body like a temple?</h5>
+                                <p class="card-text">Treating your body like a temple means to honor and respect the body God has created for you. </p>
                                   <a href="#">learn more</a>
                             </div>
                         </div>
@@ -318,7 +321,7 @@
                             <img src="3.jpg" alt=""  class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Treat body as temple</h5>
-                                <p class="card-text">zeineb faouel te3bet w theb todkhel dawech w roha tal3et w khwaterha daret w thewb tetaka tarteh</p>
+                                <p class="card-text">You were bought with a price by the blood of Jesus and by grace through faith, have new life..</p>
                                   <a href="#">learn more</a>
                             </div>
                         </div>
@@ -351,7 +354,7 @@
                 <div class="col-lg-12">
                     <div class="section-header text-center">
                         <h2>Contact<span> Us</span></h2>
-                        <p>lorem ipsum dolor sit amet</p>
+                        <p>Welcome Love</p>
                     </div>
                 </div>
             </div>
@@ -359,7 +362,7 @@
                 <div class="col-lg-5 col-sm-12">
                     <div class="left-contact">
                     <h3>Location</h3>
-                    <p>raisidence zawi , Sousse</p>
+                    <p> Sousse</p>
                     <h3>Email :</h3>
                     <p>Zeinebspa@gmail.com</p>
                     <h3>Call Us</h3>

@@ -1,23 +1,34 @@
 <?php 
+session_start();
 include("./lib/bd-connect.php");
 
 if($_SERVER['REQUEST_METHOD'] == "POST")
 {
-session_start();
-$firstname = $_POST['username'];
+
 $gmail = $_POST['email'];
 $password = $_POST['password'];
 
 if(!empty($gmail) && !empty($password) && !is_numeric($gmail))
 {
-   $query = "insert into sign_up (username, email, password) values('$firstname','$gmail','$password ')";
+   $query = "select * from sign_up where email = '$gmail' limit 1";
+   $result = mysqli_query($conn, $query);
 
-   mysqli_query($conn,$query);
+   if($result)
+   {
+   if($result && mysqli_num_rows($result) > 0)
+   {
+      $user_data = mysqli_fetch_assoc($result);
+
+      if($user_data['password'] == $password)
+      {
+         header("Location: index.php");
+         die;
+      }
+   }
+   }
    echo"<script type='text/javascript'> alter('Successfully Register')</script>";
-}  
-else{
-   echo "<script>alert('Error : Please fill all fields and use a valid email address');</script>";
 }
+else echo "<script>alert('Error : Please fill all fields and use a valid email address');</script>";
 }
 ?>
 <!DOCTYPE html>
@@ -32,6 +43,8 @@ else{
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
+<body>
 <form action="" method="POST">
     <div class="container">
         <div class="design">
@@ -41,29 +54,24 @@ else{
             <div class="pill-4 rotate-45"></div>
         </div>
         <div class="login">
-            <h3 class="title">Create Account</h3>
+            <h3 class="title">User Login</h3>
             <div class="text-input">
                 <i class="ri-user-fill"></i>
-                <input type="text" name="username" placeholder="Username" required>
-            </div>
-            <div class="text-input">
-                <i class="ri-mail-line"></i>
-                <input type="email"  name="email"  placeholder="E-mail" required>
+                <input type="email" name="email"  placeholder="E-mail" required>
             </div>
             <div class="text-input">
                 <i class="ri-lock-fill"></i>
-                <input type="password"  name="password"  placeholder="Password" required>
+                <input type="password" name="password" placeholder="Password" required>
             </div>
-            <input type="submit" value="Create" class="login-btn">
-            
-          
+            <input type="submit" value="Login" class="login-btn">
+            <a href="#" class="forgot">Forgot Username/Password?</a>
             <div class="create">
-               
+                <a href="http://localhost/plante/signup.php#">Create Your Account</a>
                 <i class="ri-arrow-right-fill"></i>
             </div>
         </div>
     </div>
-    </form>
+</form>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
