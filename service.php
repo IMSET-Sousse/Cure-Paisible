@@ -88,6 +88,47 @@
 .properties-container .box .content .text p{
     font-size: 1rem;
 }
+.rech{
+    display: grid;
+    grid-template-columns: 0.4fr 0.0fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.rech-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+}
+.rech-container form{
+    display: flex;
+    flex-direction: column;
+}
+.rech-container form span{
+    font-size: 0.9rem;
+    color: #3492fd;
+    margin-bottom: 4px;
+}
+.rech-container form input{
+    border: 1px solid  #8a8a8a;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 1rem;
+    background: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    padding: 6px 10px;
+    border-radius: 5rem;
+}
+.rech-container form .buttom{
+    outline: none;
+    border: none;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 0.85rem;
+    font-weight:500;
+}
+
 
      
     </style>
@@ -105,7 +146,16 @@
                     <h2>Our <span>Services</span></h2>              
                 </div>
             </div>
-        </div>      
+        </div>  
+        <div class="rech container">
+            <div class="rech-container">
+        <form >
+        <span>Recherche</span>
+        <input type="text" name="search" id="search" placeholder="Recherche" value="<?= $search ?>">
+        <input type="submit" value="Recherche" class="buttom"/>
+    </form>
+             </div>
+</div>    
           <div class="row">
             <div class="col-lg-4 col-md-12 mb-4">
               <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
@@ -309,7 +359,7 @@
             </div>
         </div>
     </div>
-    
+
      
 <?php include("./lib/footer.php") ?>
 

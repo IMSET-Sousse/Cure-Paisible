@@ -309,7 +309,7 @@ My friends and I listen to the same radio English program and transcribe what is
                             <img src="2.jpg" alt=""  class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">Treat body as temple</h5>
-                                <p class="card-text">zeineb faouel te3bet w theb todkhel dawech w roha tal3et w khwaterha daret w thewb tetaka tarteh</p>
+                                <p class="card-text">If you have been saved and you are a child of God, then the Holy Spirit lives inside you. ..</p>
                                   <a href="#">learn more</a>
                             </div>
                         </div>
