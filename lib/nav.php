@@ -1,3 +1,4 @@
+<?php include_once('lib/auth.php');?>
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
           <a class="navbar-brand" href="http://localhost/Cure-Paisible/index.php"><span class="text-success">Cure</span> <i class="fa-solid fa-spa"></i> Paisible</a>
@@ -24,9 +25,17 @@
               <li class="nav-item">
                 <a class="nav-link" href="http://localhost/Cure-Paisible/contact.php">Contact</a>
               </li>
+              <?php if ($logedin == TRUE) { ?>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost/Cure-Paisible/login.php">Log out</a>
+              </li>
+              <?php }else{ ?>
+         
               <li class="nav-item">
                 <a class="nav-link" href="http://localhost/Cure-Paisible/login.php">Log in</a>
               </li>
+             </div>
           </div>
         </div>
+        <?php } ?> 
       </nav>

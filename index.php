@@ -308,7 +308,7 @@ My friends and I listen to the same radio English program and transcribe what is
                         <div class="card">
                             <img src="2.jpg" alt=""  class="card-img-top">
                             <div class="card-body">
-                                <h5 class="card-title">Treat body as temple</h5>
+                                <h5 class="card-title"> See Your Body as a Gift</h5>
                                 <p class="card-text">If you have been saved and you are a child of God, then the Holy Spirit lives inside you. ..</p>
                                   <a href="#">learn more</a>
                             </div>
@@ -320,8 +320,8 @@ My friends and I listen to the same radio English program and transcribe what is
                         <div class="card">
                             <img src="3.jpg" alt=""  class="card-img-top">
                             <div class="card-body">
-                                <h5 class="card-title">Treat body as temple</h5>
-                                <p class="card-text">You were bought with a price by the blood of Jesus and by grace through faith, have new life..</p>
+                                <h5 class="card-title">Take Care of Your Body</h5>
+                                <p class="card-text">Although the chapter is in the context of sexual purity, it does make a point in 1 Corinthians 6:20..</p>
                                   <a href="#">learn more</a>
                             </div>
                         </div>
