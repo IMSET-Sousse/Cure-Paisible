@@ -1,3 +1,15 @@
+<?php include("./lib/bd-connect.php");
+   $search = '';
+   if (isset($_GET) && $_GET && $_GET['search']){
+       $search = $_GET['search'];
+       $sql = "SELECT * FROM services WHERE 	title LIKE '%" . $_GET['search'] . "%' or description LIKE '%" . $_GET['search'] . "%';";
+   }else {
+       $sql = "SELECT * FROM services";
+   }
+
+   $result = $conn->query($sql);
+   $conn->close();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,14 +24,71 @@
     <style>
         img{
           max-width: 100%;
-  height: auto;
+            height:300px;
             border-radius: 10px;
             
         }
         img:hover{
           -webkit-transform: scale(0.3);
 	         transform: scale(0.9);
+           -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
                  }
+                 .properties{
+    background: #fff;
+    border-radius: 2rem;   
+}
+.properties-container {
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(18rem,auto));
+   gap: 3rem;
+   padding: 0 50px;  
+}
+.properties-container .box{
+    background: var(--bg-color);
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    width: 400px;
+  height: 550px;
+  border-radius: 15px;
+  background-color: #fff;
+  border: 3px solid #6cae22;
+
+}
+.properties-container .box:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    background : #6cae22 ;
+    color : #fff;
+}
+.properties-container .box img{
+    border-radius: 1rem;
+    height: 220px;
+    width: 270px;
+    object-fit: cover;
+    object-position: center;
+}
+.properties-container .box h3{
+    font-size: 1rem;
+    font-weight: 600;
+    float: right;
+}
+.properties-container .box .content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.properties-container .box .content .text h3{
+    font-weight: 700;
+}
+.properties-container .box .content .text p{
+    font-size: 1rem;
+}
+
      
     </style>
 
@@ -33,15 +102,14 @@
           <div class="row">
             <div class="col-lg-12">
                 <div class="section-header text-center">
-                    <h2>Our <span>Services</span></h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h2>Our <span>Services</span></h2>              
                 </div>
             </div>
         </div>      
           <div class="row">
             <div class="col-lg-4 col-md-12 mb-4">
               <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
-                <img src="services-image/services-1.jpg"
+                <img src="Our service/our service-1.jpg"
                   class="w-100" />
                 <a href="#!">  
                 </a>
@@ -49,7 +117,7 @@
             </div>
             <div class="col-lg-4 col-md-12 mb-4">
               <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
-                <img src="services-image/services-2.jpg"
+                <img src="Our service\our service-2.jpg"
                   class="w-100" />
                 <a href="#!">  
                 </a>
@@ -57,7 +125,7 @@
             </div>
             <div class="col-lg-4 col-md-12 mb-4">
               <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
-                <img src="services-image/services-3.jpg"
+                <img src="Our service\our service-3.jpg"
                   class="w-100" />
                 <a href="#!">  
                 </a>
@@ -68,7 +136,7 @@
           <div class="row">
             <div class="col-lg-4 col-md-12 mb-4">
               <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
-                <img src="services-image/services-4.jpg"
+                <img src="Our service\our service-4.jpg"
                   class="w-100" />
                 <a href="#!">  
                 </a>
@@ -76,7 +144,7 @@
             </div>
             <div class="col-lg-4 col-md-12 mb-4">
               <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
-                <img src="services-image/services-5.jpg"
+                <img src="Our service\our service-5.jpg"
                   class="w-100" />
                 <a href="#!">  
                 </a>
@@ -84,13 +152,36 @@
             </div>
             <div class="col-lg-4 col-md-12 mb-4">
               <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
-                <img src="services-image/services-6.jpg"
+                <img src="Our service\our service-6.jpg"
                   class="w-100" />
                 <a href="#!">  
                 </a>
               </div>
             </div>
-          
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="Our service\our service-7.jpg"
+                  class="w-100" />
+                <a href="#!">  
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="Our service\our service-8.jpg"
+                  class="w-100" />
+                <a href="#!">  
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                <img src="Our service\our service-9.jpg"
+                  class="w-100" />
+                <a href="#!">  
+                </a>
+              </div>
+            </div>
       
             
       
@@ -98,232 +189,51 @@
           </div>
         </div>
       </section>
-      <section style="background-color: #eee;">
-        <div class="container py-5">
-          <div class="row">
-            <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
-              <div class="card">
-                <div class="d-flex justify-content-between p-3">
-                  <p class="lead mb-0">Today's Combo Offer</p>
-                  <div
-                    class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                    style="width: 35px; height: 35px;">
-                    <p class="text-white mb-0 small">x4</p>
-                  </div>
-                </div>
-                <img src="services-image/services-1.jpg"
-                  class="card-img-top" alt="Laptop" />
-                <div class="card-body">
-                  <div class="d-flex justify-content-between">
-                    <p class="small"><a href="#!" class="text-muted">Laptops</a></p>
-                    <p class="small text-danger"><s>$1099</s></p>
-                  </div>
-      
-                  <div class="d-flex justify-content-between mb-3">
-                    <h5 class="mb-0">HP Notebook</h5>
-                    <h5 class="text-dark mb-0">$999</h5>
-                  </div>
-      
-                  <div class="d-flex justify-content-between mb-2">
-                    <p class="text-muted mb-0">Available: <span class="fw-bold">6</span></p>
-                    <div class="ms-auto text-warning">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
-              <div class="card">
-                <div class="d-flex justify-content-between p-3">
-                  <p class="lead mb-0">Today's Combo Offer</p>
-                  <div
-                    class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                    style="width: 35px; height: 35px;">
-                    <p class="text-white mb-0 small">x2</p>
-                  </div>
-                </div>
-                <img src="services-image/services-2.jpg"
-                  class="card-img-top" alt="Laptop" />
-                <div class="card-body">
-                  <div class="d-flex justify-content-between">
-                    <p class="small"><a href="#!" class="text-muted">Laptops</a></p>
-                    <p class="small text-danger"><s>$1199</s></p>
-                  </div>
-      
-                  <div class="d-flex justify-content-between mb-3">
-                    <h5 class="mb-0">HP Envy</h5>
-                    <h5 class="text-dark mb-0">$1099</h5>
-                  </div>
-      
-                  <div class="d-flex justify-content-between mb-2">
-                    <p class="text-muted mb-0">Available: <span class="fw-bold">7</span></p>
-                    <div class="ms-auto text-warning">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="far fa-star"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
-              <div class="card">
-                <div class="d-flex justify-content-between p-3">
-                  <p class="lead mb-0">Today's Combo Offer</p>
-                  <div
-                    class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                    style="width: 35px; height: 35px;">
-                    <p class="text-white mb-0 small">x3</p>
-                  </div>
-                </div>
-                <img src="services-image/services-3.jpg"
-                  class="card-img-top" alt="Gaming Laptop" />
-                <div class="card-body">
-                  <div class="d-flex justify-content-between">
-                    <p class="small"><a href="#!" class="text-muted">Laptops</a></p>
-                    <p class="small text-danger"><s>$1399</s></p>
-                  </div>
-      
-                  <div class="d-flex justify-content-between mb-3">
-                    <h5 class="mb-0">Toshiba B77</h5>
-                    <h5 class="text-dark mb-0">$1299</h5>
-                  </div>
-      
-                  <div class="d-flex justify-content-between mb-2">
-                    <p class="text-muted mb-0">Available: <span class="fw-bold">5</span></p>
-                    <div class="ms-auto text-warning">
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
-              <div class="card">
-                <div class="d-flex justify-content-between p-3">
-                  <p class="lead mb-0">Today's Combo Offer</p>
-                  <div
-                    class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                    style="width: 35px; height: 35px;">
-                    <p class="text-white mb-0 small">x3</p>
-                  </div>
-                </div>
-                <img src="services-image/services-3.jpg"
-                  class="card-img-top" alt="Gaming Laptop" />
-                <div class="card-body">
-                  <div class="d-flex justify-content-between">
-                    <p class="small"><a href="#!" class="text-muted">Laptops</a></p>
-                    <p class="small text-danger"><s>$1399</s></p>
-                  </div>
-      
-                  <div class="d-flex justify-content-between mb-3">
-                    <h5 class="mb-0">Toshiba B77</h5>
-                    <h5 class="text-dark mb-0">$1299</h5>
-                  </div>
-      
-                  <div class="d-flex justify-content-between mb-2">
-                    <p class="text-muted mb-0">Available: <span class="fw-bold">5</span></p>
-                    <div class="ms-auto text-warning">
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
-              <div class="card">
-                <div class="d-flex justify-content-between p-3">
-                  <p class="lead mb-0">Today's Combo Offer</p>
-                  <div
-                    class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                    style="width: 35px; height: 35px;">
-                    <p class="text-white mb-0 small">x3</p>
-                  </div>
-                </div>
-                <img src="services-image/services-3.jpg"
-                  class="card-img-top" alt="Gaming Laptop" />
-                <div class="card-body">
-                  <div class="d-flex justify-content-between">
-                    <p class="small"><a href="#!" class="text-muted">Laptops</a></p>
-                    <p class="small text-danger"><s>$1399</s></p>
-                  </div>
-      
-                  <div class="d-flex justify-content-between mb-3">
-                    <h5 class="mb-0">Toshiba B77</h5>
-                    <h5 class="text-dark mb-0">$1299</h5>
-                  </div>
-      
-                  <div class="d-flex justify-content-between mb-2">
-                    <p class="text-muted mb-0">Available: <span class="fw-bold">5</span></p>
-                    <div class="ms-auto text-warning">
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
-              <div class="card">
-                <div class="d-flex justify-content-between p-3">
-                  <p class="lead mb-0">Today's Combo Offer</p>
-                  <div
-                    class="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                    style="width: 35px; height: 35px;">
-                    <p class="text-white mb-0 small">x3</p>
-                  </div>
-                </div>
-                <img src="services-image/services-3.jpg"
-                  class="card-img-top" alt="Gaming Laptop" />
-                <div class="card-body">
-                  <div class="d-flex justify-content-between">
-                    <p class="small"><a href="#!" class="text-muted">Laptops</a></p>
-                    <p class="small text-danger"><s>$1399</s></p>
-                  </div>
-      
-                  <div class="d-flex justify-content-between mb-3">
-                    <h5 class="mb-0">Toshiba B77</h5>
-                    <h5 class="text-dark mb-0">$1299</h5>
-                  </div>
-      
-                  <div class="d-flex justify-content-between mb-2">
-                    <p class="text-muted mb-0">Available: <span class="fw-bold">5</span></p>
-                    <div class="ms-auto text-warning">
-                      <i class="fa fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star-half-alt"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
+      
+    
+          
+       
+
+
+<div class="container py-5">
+<div class="properties-container container">
+<?php 
+            if ($result->num_rows > 0) {
+                // output data of each row
+                while($row = $result->fetch_assoc()) { ?>
+   
+            <div class="box">
+              <h2><?= $row["title"] ?></h2><br>
+                <img src="<?= $row["image"] ?>" alt="" >
+                <br>
+                <div class="content">
+                    <div class="text">
+                        <h3><?= number_format ($row["prix"],2) ?> DT</h3><br><br>
+                        <p><?= $row["description"] ?></p>
+                    </div>
+                </div>
+            </div>
+        
+            <?php }
+            } else {
+                echo "0 results";
+            }
+        ?>
+          </div>
+            
+              
+             
+            
+          <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="section-header text-center">
+                    <h2>Booking <span>Now</span></h2>
+                </div>
+            </div>
+        </div>         
+            
       <div id="booking" class="section">
         <div class="section-center">
             <div class="container">
@@ -331,10 +241,6 @@
                     <div class="col-md-7 col-md-push-5">
                         <div class="booking-cta">
                             <h1>Make your reservation</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
-                                ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
-                                Perspiciatis.
-                            </p>
                         </div>
                     </div>
                     <div class="col-md-4 col-md-pull-7">

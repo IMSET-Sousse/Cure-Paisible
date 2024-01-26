@@ -9,7 +9,6 @@
     <script src="https://kit.fontawesome.com/697f7d2aae.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
 </head>
 <body>
    <?php include("./lib/nav.php") ?>
@@ -17,7 +16,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active bg-1">
             <div class="carousel-caption">
-                <h5 class="animated fadeInDown" style="animation-delay: 1ms;">Zeineb <span class="text-success"> <i class="fa-solid fa-spa"></i> center</span></h5>
+                <h5 class="animated fadeInDown" style="animation-delay: 1ms;">Cure <span class="text-success"> <i class="fa-solid fa-spa"></i>Paisible</span></h5>
                 <p class="animated fadeInUp" style="animation-delay: 1ms;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolores.</p>
                 <a href="#" class="btn">Learn More</a>
             </div>
@@ -52,9 +51,6 @@
 
             </button>
           </div>
-
-
-
       </div>
 
       <div class="about section-padding" id="about">
@@ -159,8 +155,6 @@
             </div>
         </div>
       </div>
-
-
       <div class="testimontal section-padding">
         <div class="container">
             <div class="row">
@@ -221,6 +215,172 @@
 
         </div>
       </div>
+      <div class="trainer section-padding" id="trainer"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-header text-center">
+                    <h2>our <span>Trainers</span></h2>
+                    <p>lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="single-trainer text-center">
+                <div class="card">
+                    <img src="1.jpg" alt=""  class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Jane Davis</h5>
+                        <p class="card-text">zeineb faouel te3bet w theb todkhel dawech w roha tal3et w khwaterha daret w thewb tetaka tarteh</p>
+                        <p class="Socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-instagram"></i>                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="single-trainer text-center">
+                <div class="card">
+                    <img src="2.jpg" alt=""  class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Jane Davis</h5>
+                        <p class="card-text">zeineb faouel te3bet w theb todkhel dawech w roha tal3et w khwaterha daret w thewb tetaka tarteh</p>
+                        <p class="Socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-instagram"></i>                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="single-trainer text-center">
+                <div class="card">
+                    <img src="3.jpg" alt=""  class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Jane Davis</h5>
+                        <p class="card-text">zeineb faouel te3bet w theb todkhel dawech w roha tal3et w khwaterha daret w thewb tetaka tarteh</p>
+                        <p class="Socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-instagram"></i>                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-header text-center">
+                        <h2>our <span>Posts</span></h2>
+                        <p>lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="single-blog text-center">
+                        <div class="card">
+                            <img src="1.jpg" alt=""  class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Treat body as temple</h5>
+                                <p class="card-text">zeineb faouel te3bet w theb todkhel dawech w roha tal3et w khwaterha daret w thewb tetaka tarteh</p>
+                                  <a href="#">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-blog text-center">
+                        <div class="card">
+                            <img src="2.jpg" alt=""  class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Treat body as temple</h5>
+                                <p class="card-text">zeineb faouel te3bet w theb todkhel dawech w roha tal3et w khwaterha daret w thewb tetaka tarteh</p>
+                                  <a href="#">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-blog text-center">
+                        <div class="card">
+                            <img src="3.jpg" alt=""  class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Treat body as temple</h5>
+                                <p class="card-text">zeineb faouel te3bet w theb todkhel dawech w roha tal3et w khwaterha daret w thewb tetaka tarteh</p>
+                                  <a href="#">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+
+    <div class="quote section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <single-quote class="text-center">
+                        <p>
+                            <i class="fa-solid fa-quote-left"></i>
+                            Spa Enhances Your Life . It Will Take You To The <br> Present Moment Where Exists.
+                            <i class="fa-solid fa-quote-right"></i>
+                            <h5>- Someone Famous</h5> 
+                        </p>
+                    </single-quote>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-header text-center">
+                        <h2>Contact<span> Us</span></h2>
+                        <p>lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-sm-12">
+                    <div class="left-contact">
+                    <h3>Location</h3>
+                    <p>raisidence zawi , Sousse</p>
+                    <h3>Email :</h3>
+                    <p>Zeinebspa@gmail.com</p>
+                    <h3>Call Us</h3>
+                    <p>55747471</p>
+                </div>
+           </div>
+            <div class="col-lg-6 offset-lg-1 col-sm-12">
+                <form action="">
+                    <label for="">Your Name</label>
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                    <label for="">Your Email</label>
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                    <label for="">Your Message</label>
+                    <textarea class="form-control" placeholder="Your Message"></textarea>
+                    <button class="btn"  type="submit">Submit Form</button>
+    
+                </form>
+            </div>
+     </div>
+        </div>
+    </div>
     
 
 
@@ -237,7 +397,7 @@
 
 
 
-
+<?php include("./lib/footer.php") ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
