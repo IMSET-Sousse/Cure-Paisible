@@ -233,7 +233,7 @@ My friends and I listen to the same radio English program and transcribe what is
         <div class="col-lg-4">
             <div class="single-trainer text-center">
                 <div class="card">
-                    <img src="1.jpg" alt=""  class="card-img-top">
+                    <img src="our personnel/WhatsApp Image 2024-01-26 à 10.27.35_00a8cb7d.jpg" height="300px" alt=""  class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Stephen Foster</h5>
                         <p class="card-text">Stephen oversees our new trainer development program.</p>
@@ -249,7 +249,7 @@ My friends and I listen to the same radio English program and transcribe what is
         <div class="col-lg-4">
             <div class="single-trainer text-center">
                 <div class="card">
-                    <img src="2.jpg" alt=""  class="card-img-top">
+                    <img src="our personnel/WhatsApp Image 2024-01-26 à 10.27.35_110e7c63.jpg" height="300px" alt=""  class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Andi Nguyen</h5>
                         <p class="card-text">Andi Nguyen</p>
@@ -265,7 +265,7 @@ My friends and I listen to the same radio English program and transcribe what is
         <div class="col-lg-4">
             <div class="single-trainer text-center">
                 <div class="card">
-                    <img src="3.jpg" alt=""  class="card-img-top">
+                    <img src="our personnel/WhatsApp Image 2024-01-26 à 10.27.35_d4be7021.jpg"  height="300px"alt=""  class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Ben Palocko</h5>
                         <p class="card-text">Ben oversees our nutrition coaching program.</p>
@@ -364,7 +364,7 @@ My friends and I listen to the same radio English program and transcribe what is
                     <h3>Location</h3>
                     <p> Sousse</p>
                     <h3>Email :</h3>
-                    <p>Zeinebspa@gmail.com</p>
+                    <p>curepaisible@gmail.com</p>
                     <h3>Call Us</h3>
                     <p>55747471</p>
                 </div>

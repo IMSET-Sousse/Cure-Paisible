@@ -66,7 +66,7 @@ else echo "<script>alert('Error : Please fill all fields and use a valid email a
             <input type="submit" value="Login" class="login-btn">
             <a href="#" class="forgot">Forgot Username/Password?</a>
             <div class="create">
-                <a href="http://localhost/plante/signup.php#">Create Your Account</a>
+                <a href="http://localhost/Cure-Paisible/sign%20up.php">Create Your Account</a>
                 <i class="ri-arrow-right-fill"></i>
             </div>
         </div>

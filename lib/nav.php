@@ -22,7 +22,10 @@
                 <a class="nav-link" href="http://localhost/Cure-Paisible/index.php#blog">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="http://localhost/Cure-Paisible/index.php#contact">Contact</a>
+                <a class="nav-link" href="http://localhost/Cure-Paisible/contact.php">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://localhost/Cure-Paisible/login.php">Log in</a>
               </li>
           </div>
         </div>
